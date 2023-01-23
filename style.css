@@ -1,0 +1,118 @@
+
+ 
+body{
+  position: relative;
+  height: 50vh;
+  width: 90vw;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.container{
+  position: relative;
+  background-color: white;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   margin-bottom: auto;
+   /* margin: 20px auto; */
+  /* height: 300px; */
+  width: 300px;
+  border-radius: 15px;
+  display:flex;
+  flex-direction: column;
+ 
+}
+   
+.top{
+  position: absolute;
+  width: 50%;
+  margin: -70px;
+   /* top: 0;
+  left: 0;*/
+}
+.bottom{
+  position: absolute;
+  /* z-index: 2;    Place this image in front of the img1 */
+  width: 50%;
+  margin: -70px;
+   /* top: 100px;
+  left: 100px;  */
+}
+
+.Card_image{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 15px 15px 0px 0px;
+}
+.Victor{
+  position: absolute;
+  z-index: 2;    /* Place this image in front of the img1 */
+  width: 25%;
+  border-radius: 50%;
+  top: 100px;
+  left: 100px;}
+
+ footer{
+  margin: 200px;
+} 
+.details{
+  display: flex;
+  flex-direction: column;
+   
+  justify-content: center;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  
+}
+.identity{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60%;
+ 
+}
+h1{
+  font-size: 18px;
+
+}
+.location{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.age{
+  margin-left: 10px;
+  margin-top: 14px;
+}
+.social_media{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* added padding bottom as 10 */
+  padding: 5px 30px 10px ;
+}
+p{
+  color: hsl(0, 0%, 59%);
+  margin: 0px;
+}
+.numbers{
+  margin-bottom: 0px;}
+  .letters{
+  font-size: small;
+}
+ hr{
+  color: black;
+ display: block;
+ 
+   overflow: visible;
+    border-style: inset;
+     border-width: 1px;}
+     
